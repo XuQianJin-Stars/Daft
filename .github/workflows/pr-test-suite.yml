@@ -349,7 +349,10 @@ jobs:
         uv venv --seed .venv
         echo "$GITHUB_WORKSPACE/.venv/bin" >> $GITHUB_PATH
         source .venv/bin/activate
-        uv pip install -U twine toml maturin
+        # Pin maturin to match pyproject.toml; floating -U pulls newer maturin
+        # versions whose CLI may break flags used below (e.g. dropped support
+        # for `-Z unstable-options`).
+        uv pip install -U twine toml 'maturin==1.13.3'
     - uses: moonrepo/setup-rust@v1
       with:
         cache: false
@@ -375,7 +378,7 @@ jobs:
     - name: Build wheels
       run: |
         source .venv/bin/activate
-        maturin build --release --compatibility linux --out dist --timings=html -Z unstable-options
+        maturin build --release --compatibility linux --out dist --timings=html
     - name: Upload wheels
       uses: actions/upload-artifact@v7
       with:
