@@ -1,0 +1,60 @@
+{
+  "backend": "goosefs",
+  "dataset": "goosefs://localhost:9200/lerobot/egodex-test",
+  "image_column": "observation.image",
+  "kind": "decode",
+  "label": "cold (after fs free)",
+  "reader": "batched",
+  "results": [
+    {
+      "rows": 1,
+      "s_per_frame": 6.029713959025685,
+      "wall": 6.029713959025685
+    },
+    {
+      "rows": 2,
+      "s_per_frame": 2.639589979487937,
+      "wall": 5.279179958975874
+    },
+    {
+      "rows": 3,
+      "s_per_frame": 2.045416847007194,
+      "wall": 6.136250541021582
+    },
+    {
+      "rows": 4,
+      "s_per_frame": 1.2111527292436222,
+      "wall": 4.844610916974489
+    },
+    {
+      "rows": 5,
+      "s_per_frame": 0.9692647999967449,
+      "wall": 4.846323999983724
+    },
+    {
+      "rows": 6,
+      "s_per_frame": 0.789709069339248,
+      "wall": 4.738254416035488
+    },
+    {
+      "rows": 7,
+      "s_per_frame": 0.6703963214282079,
+      "wall": 4.692774249997456
+    },
+    {
+      "rows": 8,
+      "s_per_frame": 0.46605792187619954,
+      "wall": 3.7284633750095963
+    },
+    {
+      "rows": 9,
+      "s_per_frame": 0.4606807176670473,
+      "wall": 4.146126459003426
+    },
+    {
+      "rows": 10,
+      "s_per_frame": 0.4573730209027417,
+      "wall": 4.573730209027417
+    }
+  ]
+}

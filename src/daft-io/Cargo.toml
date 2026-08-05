@@ -24,7 +24,7 @@ hf-xet = "1.5"
 home = "0.5.12"
 itertools = {workspace = true}
 log = {workspace = true}
-opendal = {version = "0.57", default-features = false, features = [
+opendal = {version = "0.58.1", default-features = false, features = [
   "executors-tokio",  # Use tokio for async execution
   "services-oss",  # Alibaba Cloud Object Storage Service
   "services-cos",  # Tencent Cloud Object Storage
@@ -35,6 +35,7 @@ opendal = {version = "0.57", default-features = false, features = [
   "services-fs",  # Local filesystem (used for integration testing)
   "services-github"  # GitHub repository contents
 ]}
+object_store_opendal = {version = "0.58"}
 pyo3 = {workspace = true, optional = true}
 rand = {workspace = true}
 regex = "1.12.2"

@@ -1,0 +1,20 @@
+{
+  "backend": "hf",
+  "dataset": "pepijn223/egodex-test",
+  "image_column": "observation.image",
+  "kind": "decode",
+  "label": "batched+hf",
+  "reader": "batched",
+  "results": [
+    {
+      "rows": 100,
+      "s_per_frame": 0.3033021895901766,
+      "wall": 30.330218959017657
+    },
+    {
+      "rows": 632,
+      "s_per_frame": 0.18739204529274617,
+      "wall": 118.43177262501558
+    }
+  ]
+}

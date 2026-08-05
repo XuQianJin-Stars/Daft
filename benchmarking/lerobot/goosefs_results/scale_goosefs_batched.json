@@ -1,0 +1,20 @@
+{
+  "backend": "goosefs",
+  "dataset": "goosefs://localhost:9200/lerobot/egodex-test",
+  "image_column": "observation.image",
+  "kind": "decode",
+  "label": "warm (fs load)",
+  "reader": "batched",
+  "results": [
+    {
+      "rows": 100,
+      "s_per_frame": 0.008036149999825284,
+      "wall": 0.8036149999825284
+    },
+    {
+      "rows": 632,
+      "s_per_frame": 0.006054081223150597,
+      "wall": 3.8261793330311775
+    }
+  ]
+}

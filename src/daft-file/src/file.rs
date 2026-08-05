@@ -228,9 +228,17 @@ impl Read for ObjectSourceReader {
             return Ok(0);
         }
 
+        // Clamp to known file size so ranged GETs do not ask past EOF.
+        // OpenDAL's Complete layer rejects short reads when the requested
+        // range length exceeds the object (GooseFS returns the remaining
+        // bytes rather than padding).
+        if self.position >= self.size {
+            return Ok(0);
+        }
+
         let rt = common_runtime::get_io_runtime(true);
         let start = self.position;
-        let end = start + buf.len();
+        let end = std::cmp::min(start + buf.len(), self.size);
 
         let range = Some(GetRange::Bounded(start..end));
         let source = self.source.clone();

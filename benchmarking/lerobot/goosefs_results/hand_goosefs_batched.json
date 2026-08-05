@@ -1,0 +1,71 @@
+{
+  "backend": "goosefs",
+  "dataset": "goosefs://localhost:9200/lerobot/egodex-test",
+  "kind": "hand",
+  "label": "warm (fs load)",
+  "n_rows": 12,
+  "reader": "batched",
+  "rows": [
+    {
+      "episode_index": 0,
+      "frame_index": 0,
+      "n_hands": 2
+    },
+    {
+      "episode_index": 0,
+      "frame_index": 1,
+      "n_hands": 2
+    },
+    {
+      "episode_index": 0,
+      "frame_index": 2,
+      "n_hands": 2
+    },
+    {
+      "episode_index": 0,
+      "frame_index": 3,
+      "n_hands": 2
+    },
+    {
+      "episode_index": 0,
+      "frame_index": 4,
+      "n_hands": 2
+    },
+    {
+      "episode_index": 0,
+      "frame_index": 5,
+      "n_hands": 2
+    },
+    {
+      "episode_index": 0,
+      "frame_index": 6,
+      "n_hands": 2
+    },
+    {
+      "episode_index": 0,
+      "frame_index": 7,
+      "n_hands": 2
+    },
+    {
+      "episode_index": 0,
+      "frame_index": 8,
+      "n_hands": 2
+    },
+    {
+      "episode_index": 0,
+      "frame_index": 9,
+      "n_hands": 2
+    },
+    {
+      "episode_index": 0,
+      "frame_index": 10,
+      "n_hands": 2
+    },
+    {
+      "episode_index": 0,
+      "frame_index": 11,
+      "n_hands": 2
+    }
+  ],
+  "wall": 1.9769979160046205
+}

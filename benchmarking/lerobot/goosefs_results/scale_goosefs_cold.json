@@ -1,0 +1,20 @@
+{
+  "backend": "goosefs",
+  "cache": "cold",
+  "dataset": "goosefs://localhost:9200/lerobot/egodex-test",
+  "kind": "decode",
+  "label": "cold (after fs free)",
+  "reader": "batched",
+  "results": [
+    {
+      "rows": 100,
+      "s_per_frame": 0.2994154229195556,
+      "wall": 29.941542291955557
+    },
+    {
+      "rows": 632,
+      "s_per_frame": 0.19210086623105424,
+      "wall": 121.40774745802628
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "backend": "hf",
+  "dataset": "pepijn223/egodex-test",
+  "image_column": "observation.image",
+  "kind": "decode",
+  "label": "original+hf",
+  "reader": "original",
+  "results": [
+    {
+      "rows": 1,
+      "s_per_frame": 11.903498917003162,
+      "wall": 11.903498917003162
+    },
+    {
+      "rows": 2,
+      "s_per_frame": 8.385774208494695,
+      "wall": 16.77154841698939
+    },
+    {
+      "rows": 3,
+      "s_per_frame": 7.8593473333360935,
+      "wall": 23.57804200000828
+    },
+    {
+      "rows": 4,
+      "s_per_frame": 7.144893677250366,
+      "wall": 28.579574709001463
+    },
+    {
+      "rows": 5,
+      "s_per_frame": 7.526007358403876,
+      "wall": 37.63003679201938
+    },
+    {
+      "rows": 6,
+      "s_per_frame": 7.434032847338433,
+      "wall": 44.6041970840306
+    },
+    {
+      "rows": 7,
+      "s_per_frame": 7.005115994002803,
+      "wall": 49.03581195801962
+    },
+    {
+      "rows": 8,
+      "s_per_frame": 7.3362828021199675,
+      "wall": 58.69026241695974
+    },
+    {
+      "rows": 9,
+      "s_per_frame": 8.243601115776174,
+      "wall": 74.19241004198557
+    },
+    {
+      "rows": 10,
+      "s_per_frame": 6.396371495904168,
+      "wall": 63.96371495904168
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "backend": "goosefs",
+  "dataset": "goosefs://localhost:9200/lerobot/egodex-test",
+  "image_column": "observation.image",
+  "kind": "decode",
+  "results": [
+    {
+      "rows": 1,
+      "s_per_frame": 0.2250827089883387,
+      "sha256_prefix": [
+        "e5fc8c7c4fcf"
+      ],
+      "wall": 0.2250827089883387
+    },
+    {
+      "rows": 2,
+      "s_per_frame": 0.037977625004714355,
+      "sha256_prefix": [
+        "e5fc8c7c4fcf",
+        "b5ab04ebd1ce"
+      ],
+      "wall": 0.07595525000942871
+    },
+    {
+      "rows": 3,
+      "s_per_frame": 0.026973791672692943,
+      "sha256_prefix": [
+        "e5fc8c7c4fcf",
+        "b5ab04ebd1ce",
+        "c9adadd3fc73"
+      ],
+      "wall": 0.08092137501807883
+    },
+    {
+      "rows": 4,
+      "s_per_frame": 0.021277854248182848,
+      "sha256_prefix": [
+        "e5fc8c7c4fcf",
+        "b5ab04ebd1ce",
+        "c9adadd3fc73",
+        "a60cc560a76e"
+      ],
+      "wall": 0.08511141699273139
+    },
+    {
+      "rows": 5,
+      "s_per_frame": 0.018598583398852498,
+      "sha256_prefix": [
+        "e5fc8c7c4fcf",
+        "b5ab04ebd1ce",
+        "c9adadd3fc73",
+        "a60cc560a76e",
+        "1d40c8594c70"
+      ],
+      "wall": 0.09299291699426249
+    },
+    {
+      "rows": 6,
+      "s_per_frame": 0.0162182708348458,
+      "sha256_prefix": [
+        "e5fc8c7c4fcf",
+        "b5ab04ebd1ce",
+        "c9adadd3fc73",
+        "a60cc560a76e",
+        "1d40c8594c70",
+        "56aaff532917"
+      ],
+      "wall": 0.09730962500907481
+    },
+    {
+      "rows": 7,
+      "s_per_frame": 0.014616642854109938,
+      "sha256_prefix": [
+        "e5fc8c7c4fcf",
+        "b5ab04ebd1ce",
+        "c9adadd3fc73",
+        "a60cc560a76e",
+        "1d40c8594c70",
+        "56aaff532917",
+        "72f3dc69125c"
+      ],
+      "wall": 0.10231649997876957
+    },
+    {
+      "rows": 8,
+      "s_per_frame": 0.012981874999240972,
+      "sha256_prefix": [
+        "e5fc8c7c4fcf",
+        "b5ab04ebd1ce",
+        "c9adadd3fc73",
+        "a60cc560a76e",
+        "1d40c8594c70",
+        "56aaff532917",
+        "72f3dc69125c",
+        "0f1efeb0e434"
+      ],
+      "wall": 0.10385499999392778
+    },
+    {
+      "rows": 9,
+      "s_per_frame": 0.01249804633617815,
+      "sha256_prefix": [
+        "e5fc8c7c4fcf",
+        "b5ab04ebd1ce",
+        "c9adadd3fc73",
+        "a60cc560a76e",
+        "1d40c8594c70",
+        "56aaff532917",
+        "72f3dc69125c",
+        "0f1efeb0e434",
+        "ba76cc9ffddc"
+      ],
+      "wall": 0.11248241702560335
+    },
+    {
+      "rows": 10,
+      "s_per_frame": 0.01195468750083819,
+      "sha256_prefix": [
+        "e5fc8c7c4fcf",
+        "b5ab04ebd1ce",
+        "c9adadd3fc73",
+        "a60cc560a76e",
+        "1d40c8594c70",
+        "56aaff532917",
+        "72f3dc69125c",
+        "0f1efeb0e434",
+        "ba76cc9ffddc",
+        "0485565d7857"
+      ],
+      "wall": 0.1195468750083819
+    }
+  ]
+}
